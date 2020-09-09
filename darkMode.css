@@ -1,0 +1,43 @@
+:root {
+  /* Body Background Colours */
+  --header: 21, 21, 21;
+  --friendlist: 30, 30, 31;
+  --footer: 21, 21, 21;
+
+  /* Text */
+  --text: 255, 255, 255;
+  --listtext: 145, 145, 145;
+  --unreadmessage: 0, 255, 0;
+
+  /* Nickname Colour */
+  --nickname: 102, 102, 102;
+
+  /* Icon colours */
+  --icon: 185, 187, 190;
+  --iconhover: 255, 255, 255;
+
+  /* Title Icon Background */
+  --titleiconbg: 30, 30, 31;
+  --titleiconhover: var(--iconhover);
+
+  /* Status Colours */
+  --ingame: 255, 255, 99;
+  --online: 93, 253, 251;
+  --away: 255, 17, 233;
+  --offline: 249, 249, 249;
+  --watching: 5, 254, 62;
+
+  /* Buttons */
+  --buttonOn: 45, 115, 255;
+  --buttonOff: 46, 46, 47;
+
+  /* Scroll Bar */
+  --scrollbarPrimary: 55, 55, 55;
+  --scrollbarPrimaryHover: 97, 97, 97;
+  --scrollbarSecondary: var(--scrollbarPrimary);
+  --scrollbarSecondaryHover: var(--scrollbarPrimaryHover);
+
+  /* Close Button */
+  --closeButton: 240, 71, 71;
+  --closeIconHover: 255, 255, 255;
+}
